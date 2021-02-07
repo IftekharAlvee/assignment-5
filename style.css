@@ -1,0 +1,37 @@
+.search-box{
+    
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 650px;
+    top: 100px;
+    display: inline-block;
+    margin-bottom: 200px;
+}
+.search-food-box{
+     
+    
+}
+.button-src{
+    margin: 10px 165px;
+}
+
+.food-search-section{
+ 
+width: 300px;
+height: 300px;
+}
+.food-img{
+    width: 100px;
+    height: 100px;
+}
+.food-div{
+    padding: 20px;
+}
+.food-h5{
+    padding: 20px;
+}
+.foodDetails{
+    width: 300px;
+    height: 400px;
+}
