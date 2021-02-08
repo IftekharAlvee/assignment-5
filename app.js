@@ -77,6 +77,7 @@ const renderFoodInfo = food => {
             <div class="card" style="width: 18rem;">
                 <img src="${food.strMealThumb}" class="card-img-top p-3">
                     <div class="card-body">
+                    <h4 class="card-title text-center">${food.strMeal}</h4>
                         <ul class= "list-group m-3">
                             <li class="list-group-item">${food.strMeasure1}${food.strIngredient1}</li>
                             <li class="list-group-item">${food.strMeasure2}${food.strIngredient2}</li>
