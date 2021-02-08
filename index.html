@@ -15,18 +15,52 @@
 
 <body>
 
-    <div class="search-box ">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-sm search-bar d-flex align-items-center justify-content-center mt-5 border border-secondary rounded-pill">
+    <div class="d-flex">
+      <input id="search-food" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button id="search-btn" class="btn  btn-outline-secondary" >Search</button>
+    </div>
+  </div>
+
+
+
+    <!-- <div class="search-box ">
         <input id="search-food" class="search-food-box form-control" type="text">
         <button id="search-btn" class="btn btn-outline-secondary button-src">Search</button>
     </div>
-      <section class="container mb-5">
+     -->
+
+     <section class="m-5">
+      <div id="searched-food-result" class="w-auto h-auto row row-cols-1 row-cols-md-3 g-4">
+        
+      </div>
+     </section>
+
+      <!-- <section class="container mb-5">
         <div id="searched-food-result" class="food-search-section">
 
         </div>
-      </section>
+      </section> -->
     
-      <section class="container mt-5">
-        <div id="food-details" class="foodDetails">
+      <section class="w-auto h-auto d-flex justify-content-center mt-5 ">
+        <div id="food-details" class="w-auto h-auto foodDetails">
 
         </div>
       </section>
